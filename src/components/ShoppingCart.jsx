@@ -35,7 +35,7 @@ function ShoppingCart() {
       {cart.map((item) => (
         <div
           key={item.id}
-          className="p-4 d-flex align-items-center justify-content-center shadow w-25 mx-auto gap-4"
+          className="p-4 d-flex align-items-center justify-content-center shadow w-50 mx-auto gap-4"
         >
         <div>
           <img
